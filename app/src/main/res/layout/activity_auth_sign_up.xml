@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AuthSignUp">
+
+    <EditText
+        android:id="@+id/edtOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:hint="Enter OTP here.."
+        android:layout_margin="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:et_supportMaxChars="6"></EditText>
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/btnSignActive"
+        android:text="Sign In"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
